@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition/>
+        <condition_order/>
+        <datasource_table>sys_user</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="User Form Screen">dae94f41db5bf3007f65f9c31d9619e2</embedded_screen>
+        <item_view display_value="User List Screen Item View">12e98b41db5bf3007f65f9c31d9619dd</item_view>
+        <name>User master_item</name>
+        <screen/>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-14 21:27:26</sys_created_on>
+        <sys_id>dae94f41db5bf3007f65f9c31d9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User master_item</sys_name>
+        <sys_package display_value="Youtube search" source="x_snc_youtube_sear">29494b01db5bf3007f65f9c31d961939</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Youtube search">29494b01db5bf3007f65f9c31d961939</sys_scope>
+        <sys_update_name>sys_sg_master_item_dae94f41db5bf3007f65f9c31d9619e6</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-14 21:27:26</sys_updated_on>
+        <table>sys_user</table>
+    </sys_sg_master_item>
+</record_update>

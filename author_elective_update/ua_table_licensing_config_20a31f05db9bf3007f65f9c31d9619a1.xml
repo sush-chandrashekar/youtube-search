@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_snc_youtube_sear_youtube_search_videos</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-14 22:09:55</sys_created_on>
+        <sys_id>20a31f05db9bf3007f65f9c31d9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_youtube_sear_youtube_search_videos</sys_name>
+        <sys_package display_value="Youtube search" source="x_snc_youtube_sear">29494b01db5bf3007f65f9c31d961939</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Youtube search">29494b01db5bf3007f65f9c31d961939</sys_scope>
+        <sys_update_name>ua_table_licensing_config_20a31f05db9bf3007f65f9c31d9619a1</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-14 22:09:55</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Youtube search">29494b01db5bf3007f65f9c31d961939</application>
+        <file_path/>
+        <instance_id>cf5e8f4bdb03ff44b847ac44d4961973</instance_id>
+        <instance_name>mobileny6</instance_name>
+        <name>ua_table_licensing_config_20a31f05db9bf3007f65f9c31d9619a1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_snc_youtube_sear_youtube_search_videos</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>sush.chan</sys_created_by><sys_created_on>2019-08-14 22:09:55</sys_created_on><sys_id>20a31f05db9bf3007f65f9c31d9619a1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_youtube_sear_youtube_search_videos</sys_name><sys_package display_value="Youtube search" source="x_snc_youtube_sear">29494b01db5bf3007f65f9c31d961939</sys_package><sys_policy/><sys_scope display_value="Youtube search">29494b01db5bf3007f65f9c31d961939</sys_scope><sys_update_name>ua_table_licensing_config_20a31f05db9bf3007f65f9c31d9619a1</sys_update_name><sys_updated_by>sush.chan</sys_updated_by><sys_updated_on>2019-08-14 22:09:55</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-1559633611</payload_hash>
+        <record_name>x_snc_youtube_sear_youtube_search_videos</record_name>
+        <reverted_from/>
+        <source>a1494b01db5bf3007f65f9c31d96193c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-14 22:09:55</sys_created_on>
+        <sys_id>a0a31f05db9bf3007f65f9c31d9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16c922e2e1d0000001</sys_recorded_at>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-14 22:09:55</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>a8a31f05749bf300a372b272d471b3a2</update_guid>
+        <update_guid_history>a8a31f05749bf300a372b272d471b3a2:-1559633611</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-14 22:12:58</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>0e95577c083141f89591d6526b650544</sys_id>
+        <sys_metadata>20a31f05db9bf3007f65f9c31d9619a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_youtube_sear_youtube_search_videos</sys_name>
+        <sys_package display_value="Youtube search" source="x_snc_youtube_sear">29494b01db5bf3007f65f9c31d961939</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Youtube search">29494b01db5bf3007f65f9c31d961939</sys_scope>
+        <sys_scope_delete display_value="">00cdc2b1669c4f808008c188e1944000</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_20a31f05db9bf3007f65f9c31d9619a1</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_20a31f05db9bf3007f65f9c31d9619a1">a0a31f05db9bf3007f65f9c31d9619a3</sys_update_version>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-14 22:12:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

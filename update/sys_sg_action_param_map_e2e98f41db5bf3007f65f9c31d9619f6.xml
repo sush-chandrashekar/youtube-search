@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (User)">12e98f41db5bf3007f65f9c31d96195f</button>
+        <item_parameter display_value="User last_name">d6e98f41db5bf3007f65f9c31d961917</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-14 21:27:28</sys_created_on>
+        <sys_id>e2e98f41db5bf3007f65f9c31d9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d6e98f41db5bf3007f65f9c31d961917</sys_name>
+        <sys_package display_value="Youtube search" source="x_snc_youtube_sear">29494b01db5bf3007f65f9c31d961939</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Youtube search">29494b01db5bf3007f65f9c31d961939</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_e2e98f41db5bf3007f65f9c31d9619f6</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-14 21:27:28</sys_updated_on>
+        <ui_parameter display_value="Last name">eee98f41db5bf3007f65f9c31d961980</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

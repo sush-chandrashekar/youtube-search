@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Delete Swipe (User)">1ae94f41db5bf3007f65f9c31d9619ea</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Delete</label>
+        <location>leading_swipe</location>
+        <name>Delete (User)</name>
+        <order/>
+        <parent>dae94f41db5bf3007f65f9c31d9619e6</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-14 21:27:26</sys_created_on>
+        <sys_id>d2e94f41db5bf3007f65f9c31d9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (User)</sys_name>
+        <sys_package display_value="Youtube search" source="x_snc_youtube_sear">29494b01db5bf3007f65f9c31d961939</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Youtube search">29494b01db5bf3007f65f9c31d961939</sys_scope>
+        <sys_update_name>sys_sg_button_instance_d2e94f41db5bf3007f65f9c31d9619ed</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-14 21:27:26</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=d2e94f41db5bf3007f65f9c31d9619ed"/>
+</record_update>

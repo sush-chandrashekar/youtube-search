@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="User Item Stream">92e94f41db5bf3007f65f9c31d9619e5</item_stream>
+        <segment display_value="User Item Stream Segment">56e94f41db5bf3007f65f9c31d9619e4</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-14 21:27:26</sys_created_on>
+        <sys_id>dee94f41db5bf3007f65f9c31d9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Youtube search" source="x_snc_youtube_sear">29494b01db5bf3007f65f9c31d961939</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Youtube search">29494b01db5bf3007f65f9c31d961939</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_dee94f41db5bf3007f65f9c31d9619e5</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-14 21:27:26</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

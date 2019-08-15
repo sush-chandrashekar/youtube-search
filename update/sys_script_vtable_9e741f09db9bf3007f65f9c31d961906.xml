@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>Youtube search</name>
+        <script><![CDATA[/**
+ * Using `v_query`, add the rows to `v_table`
+ */
+(function executeQuery(v_table, v_query) {
+
+  fetchVideos(v_table, v_query);
+
+  /**
+   * fetch all incidents records from the remote instance
+   */
+  function fetchVideos(v_table, v_query) {
+    // Uses RestMessage with name 'Remote Instance Incidents' and function 'All Incidents'
+    // Create a RestMessage first which calls an external REST service
+    try {
+      var r = new sn_ws.RESTMessageV2('x_snc_youtube_sear.Youtube search', 'Default GET');
+      var response = r.execute();
+      var responseBody = response.getBody();
+
+      // if REST call ends up in an error, set the last error message
+      if (response.haveError()) {
+        v_query.setLastErrorMessage(response.getErrorMessage());
+        return;
+      }
+    } catch (ex) {
+      v_query.setLastErrorMessage(ex.message);
+      return;
+    }
+
+    var transformerDefinition = getTransformerDefinition();
+    var transformer = new sn_tfrm.Transformer(transformerDefinition, responseBody);
+    // transformer parses the responseBody and extracts rows
+    while (transformer.transform()) {
+      // row is field-value map e.g. { active:"true", number: "INC0000001"}
+      var row = transformer.getRow();
+		gs.info(JSON.stringify(row));
+      // you may do any additional transformations to the row like GlideDuration, GlideDataTime etc. For example,
+      // row.duration = new GlideDuration(row.duration);
+			row.sys_id = gs.generateGUID();
+      // finally add the row to the remote table
+      v_table.addRow(row);
+    }
+  }
+
+  /**
+   * returns a sn_tfrm.TransformerDefinition, which defines the mapping of the table fields and elements in the response body
+   */
+  function getTransformerDefinition() {
+    // create a rule list to map a field to its element path
+    var ruleList = new sn_tfrm.TransformerRuleList()
+      .fromJSON() // the response body is a JSON
+      // 'active' field maps to path '$.active'
+      .addRule("image", "thumbnails.default.url")
+      .addRule("url", "id.videoId")
+      .addRule("title", "snippet.title");
+
+    var recordPath = null;
+	var basePath = "$.items.";
+    return new sn_tfrm.TransformerDefinition(ruleList, recordPath, basePath);
+  }
+
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-14 22:13:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9e741f09db9bf3007f65f9c31d961906</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Youtube search</sys_name>
+        <sys_package display_value="Youtube search" source="x_snc_youtube_sear">29494b01db5bf3007f65f9c31d961939</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Youtube search">29494b01db5bf3007f65f9c31d961939</sys_scope>
+        <sys_update_name>sys_script_vtable_9e741f09db9bf3007f65f9c31d961906</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-15 00:03:50</sys_updated_on>
+        <table>x_snc_youtube_sear_st_youtube_search</table>
+    </sys_script_vtable>
+</record_update>
