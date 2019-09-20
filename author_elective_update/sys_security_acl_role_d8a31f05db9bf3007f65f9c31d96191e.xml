@@ -42,7 +42,7 @@
         <update_guid_history>d0a31f05549bf300301e6d25905e712e:-665026525</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_youtube_sear_youtube_search_videos.admin">78545709db9bf3007f65f9c31d961944</sys_audit_delete>
+        <sys_audit_delete display_value="">78545709db9bf3007f65f9c31d961944</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>sush.chan</sys_created_by>
         <sys_created_on>2019-08-14 22:12:56</sys_created_on>

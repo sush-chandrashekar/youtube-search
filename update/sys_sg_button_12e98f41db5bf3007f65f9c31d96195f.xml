@@ -16,8 +16,6 @@
         <external_browser>false</external_browser>
         <failure_message/>
         <field_name/>
-        <hide_buttons/>
-        <hide_fields/>
         <jump_to_previous>false</jump_to_previous>
         <jump_to_screen>false</jump_to_screen>
         <link_label/>
@@ -26,9 +24,6 @@
         <mail_content/>
         <mail_subject/>
         <name>New Button (User)</name>
-        <offline>false</offline>
-        <offline_template_field/>
-        <offline_template_field_table/>
         <phone_number/>
         <phone_type>cellular</phone_type>
         <preconditions>none</preconditions>
@@ -37,9 +32,7 @@
         <save_signature_before_action_execution>false</save_signature_before_action_execution>
         <select_current_record>false</select_current_record>
         <show_acknowledgement>false</show_acknowledgement>
-        <show_buttons/>
         <show_confirmation>false</show_confirmation>
-        <show_fields/>
         <show_refresh_on_previous>false</show_refresh_on_previous>
         <show_signature>false</show_signature>
         <sms/>
@@ -61,7 +54,6 @@
         <type>write_back</type>
         <use_overlay>false</use_overlay>
         <write_back_action_item display_value="New (User)">5ae94f41db5bf3007f65f9c31d9619ee</write_back_action_item>
-        <zombified_screens/>
     </sys_sg_button>
     <sys_translated_text action="delete_multiple" query="documentkey=12e98f41db5bf3007f65f9c31d96195f"/>
 </record_update>

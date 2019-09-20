@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Youtube search" max_length="40" name="x_snc_youtube_sear_st_youtube_search" type="collection">
-        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Image" max_length="40" name="image" type="url"/>
         <element label="Title" max_length="300" name="title" type="string"/>
         <element label="Url" max_length="1024" name="url" type="url"/>
     </element>

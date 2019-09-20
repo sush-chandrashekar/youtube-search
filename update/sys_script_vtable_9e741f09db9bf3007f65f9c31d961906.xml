@@ -43,7 +43,7 @@
 		gs.info(JSON.stringify(row));
       // you may do any additional transformations to the row like GlideDuration, GlideDataTime etc. For example,
       // row.duration = new GlideDuration(row.duration);
-			row.sys_id = gs.generateGUID();
+			//row.sys_id = gs.generateGUID();
       // finally add the row to the remote table
       v_table.addRow(row);
     }
@@ -57,13 +57,13 @@
     var ruleList = new sn_tfrm.TransformerRuleList()
       .fromJSON() // the response body is a JSON
       // 'active' field maps to path '$.active'
-      .addRule("image", "thumbnails.default.url")
-      .addRule("url", "id.videoId")
-      .addRule("title", "snippet.title");
+      .addRule("image", "$.snippet.thumbnails.default.url")
+      .addRule("url", "$.id.videoId")
+      .addRule("title", "$.snippet.title");
 
-    var recordPath = null;
-	var basePath = "$.items.";
-    return new sn_tfrm.TransformerDefinition(ruleList, recordPath, basePath);
+    var recordPath = "$.items";
+	//var basePath = "$.items.";
+    return new sn_tfrm.TransformerDefinition(ruleList, recordPath);
   }
 
 })(v_table, v_query);]]></script>
@@ -72,14 +72,14 @@
         <sys_created_on>2019-08-14 22:13:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>9e741f09db9bf3007f65f9c31d961906</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Youtube search</sys_name>
         <sys_package display_value="Youtube search" source="x_snc_youtube_sear">29494b01db5bf3007f65f9c31d961939</sys_package>
         <sys_policy/>
         <sys_scope display_value="Youtube search">29494b01db5bf3007f65f9c31d961939</sys_scope>
         <sys_update_name>sys_script_vtable_9e741f09db9bf3007f65f9c31d961906</sys_update_name>
         <sys_updated_by>sush.chan</sys_updated_by>
-        <sys_updated_on>2019-08-15 00:03:50</sys_updated_on>
+        <sys_updated_on>2019-09-18 18:33:54</sys_updated_on>
         <table>x_snc_youtube_sear_st_youtube_search</table>
     </sys_script_vtable>
 </record_update>

@@ -66,7 +66,7 @@
         <update_guid_history>d0a3db05139bf3001c3b80ad6b7ea6c4:-761332326</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Youtube search videos">fc545709db9bf3007f65f9c31d961956</sys_audit_delete>
+        <sys_audit_delete display_value="">fc545709db9bf3007f65f9c31d961956</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>sush.chan</sys_created_by>
         <sys_created_on>2019-08-14 22:12:57</sys_created_on>
